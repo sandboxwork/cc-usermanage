@@ -1,0 +1,34 @@
+{
+  "name": "cc-usermanage",
+  "version": "0.1.0",
+  "description": "Keep multiple Claude Code accounts on one machine, switch between them, and check plan usage. Unofficial; not affiliated with Anthropic.",
+  "bin": {
+    "cc-usermanage": "usermanage.js"
+  },
+  "files": [
+    "usermanage.js",
+    "README.md",
+    "README.ko.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "claude-code",
+    "cli",
+    "account",
+    "switch",
+    "usage"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandboxwork/cc-usermanage.git"
+  },
+  "homepage": "https://github.com/sandboxwork/cc-usermanage#readme",
+  "bugs": {
+    "url": "https://github.com/sandboxwork/cc-usermanage/issues"
+  },
+  "author": "cokacdir",
+  "license": "MIT"
+}

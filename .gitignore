@@ -1,0 +1,9 @@
+node_modules/
+*.tgz
+*.tmp
+
+# Never commit account credentials
+credentials/
+.claude.credentials/
+.credentials.json
+.claude.json
